@@ -104,8 +104,7 @@ a{color:inherit}
   position:fixed;
   inset:0;
   display:none;
-  align-items:center;
-  justify-content:center;
+  place-items:center;
   background:#000000b3;
   padding:24px;
 }
