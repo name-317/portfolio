@@ -71,7 +71,7 @@ a{color:inherit}
   gap:18px;
   align-items:start;
 }
-.card, .card-img{
+.card-img{
   border-radius:var(--radius);
   border:1px solid var(--line);
 }
