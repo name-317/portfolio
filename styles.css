@@ -100,7 +100,6 @@ a{color:inherit}
   height:220px;
   object-fit:cover;
   border-radius:14px;
-  border:1px solid var(--line);
 }
 
 .modal{
