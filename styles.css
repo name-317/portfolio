@@ -73,7 +73,6 @@ a{color:inherit}
 }
 .card-img{
   border-radius:var(--radius);
-  border:1px solid var(--line);
 }
 .card{padding:18px}
 .card-img{width:100%; height:auto; display:block}
