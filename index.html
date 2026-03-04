@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miyuki Terao | Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#top">MIYUKI TERAO</a>
+    <nav class="nav">
+      <a href="#about">Who I am</a>
+      <a href="#works">Works</a>
+      <a href="#direction">Direction</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">QUIET CREATOR</p>
+        <h1>Personal Portfolio</h1>
+        <p class="sub">Where vision meets craft, ideas become form.</p>
+        <a class="btn" href="#works">View Works</a>
+      </div>
+      <!-- 表紙の雰囲気に近い1枚を置く -->
+      <img class="hero-img" src="./assets/img/hero.jpg" alt="Portfolio cover" />
+    </section>
+
+    <section id="about" class="section">
+      <h2>Who I am</h2>
+      <div class="grid-2">
+        <img class="card-img" src="./assets/img/who.jpg" alt="Portrait" />
+        <div class="card">
+          <p class="lead">
+            アパレルODMで企画・仕様書作成・工場管理を担当。結婚後は在宅でグラフィック制作を継続し、
+            リメイクブランド運営ではコンセプト設計〜制作〜SNS〜POP-UPまで一貫して担当しました。
+          </p>
+          <h3>Skill</h3>
+          <ul class="list">
+            <li>Illustrator / Photoshop / Premiere Pro / Canva / CapCut</li>
+            <li>EC運営（BASE / Shopify / minne）</li>
+            <li>SNS運営（Instagram / Threads / X / TikTok）</li>
+            <li>HTML / CSS（GitHub Pages運用）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <h2>Works</h2>
+      <p class="muted">画像をクリックで拡大表示できます。</p>
+
+      <div class="gallery">
+        <button class="thumb" data-src="./assets/img/work-01.jpg"><img src="./assets/img/work-01.jpg" alt="Work 01"></button>
+        <button class="thumb" data-src="./assets/img/work-02.jpg"><img src="./assets/img/work-02.jpg" alt="Work 02"></button>
+        <button class="thumb" data-src="./assets/img/work-03.jpg"><img src="./assets/img/work-03.jpg" alt="Work 03"></button>
+        <button class="thumb" data-src="./assets/img/work-04.jpg"><img src="./assets/img/work-04.jpg" alt="Work 04"></button>
+      </div>
+    </section>
+
+    <section id="direction" class="section">
+      <h2>Direction</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Brand Direction</h3>
+          <p>コンセプト設計、商品企画、ビジュアルトーンの統一、撮影/編集、SNS、POP-UPまで一貫して設計。</p>
+        </article>
+        <article class="card">
+          <h3>Brand Concept & Remake</h3>
+          <p>新しい価値の再構築。イメージボード→アイテム選定→デザイン画→制作の流れを設計。</p>
+        </article>
+        <article class="card">
+          <h3>SNS Direction</h3>
+          <p>世界観の統一と連続性を意識し、写真・コピー・色味・フォントを運用ルール化。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <h2>Achievements</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Award</h3>
+          <p>RE:DESIGN FASHION GRANDPRIX 2022 優秀賞 第2位</p>
+        </article>
+        <article class="card">
+          <h3>Runway</h3>
+          <p>VFW Japanの推薦によりバンクーバーでのファッションショーに参加</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="muted">メール/Instagram/ポートフォリオPDFリンクなどを置けます。</p>
+      <div class="card">
+        <p>Email：<a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+        <p>Instagram：<a href="#" target="_blank" rel="noopener">https://</a></p>
+        <p>PDF：<a href="./assets/寺尾美雪_ポートフォリオ.pdf" target="_blank" rel="noopener">Download</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 画像拡大モーダル -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <button id="modalClose" class="modal-close" aria-label="Close">×</button>
+    <img id="modalImg" alt="" />
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
