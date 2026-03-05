@@ -96,10 +96,10 @@ a{color:inherit}
   gap:14px;
 }
 .profile-photo{
-  width:90px;
-  height:90px;
+  width:100px;          /* 好きなサイズに */
+  height:100px;
   object-fit:cover;
-  border-radius:12px;
+  border-radius:0;     /* ← 丸やめる */
   display:block;
 }
 .gallery{
