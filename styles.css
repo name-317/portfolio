@@ -46,7 +46,6 @@ a{color:inherit}
   font-family: "SloopScript", cursive;
   font-size:52px;
   letter-spacing:-0.02em;
-  color:var(--muted);
   margin:0;
 }
 .sub{color:var(--muted); margin:0 0 18px}
@@ -97,7 +96,7 @@ a{color:inherit}
   gap:14px;
 }
 .profile-photo{
-  width:90px;
+  width:150px;
   height:auto;
   display:block;
 }
