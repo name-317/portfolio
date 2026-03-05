@@ -85,6 +85,13 @@ a{color:inherit}
   grid-template-columns: repeat(3, 1fr);
   gap:14px;
 }
+.profile-photo{
+  width:80px;
+  height:80px;
+  object-fit:cover;
+  border-radius:50%;
+  display:block;
+}
 .gallery{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
