@@ -86,10 +86,10 @@ a{color:inherit}
   gap:14px;
 }
 .profile-photo{
-  width:70px;
-  height:70px;
+  width:100px;
+  height:100px;
   object-fit:cover;
-  border-radius:50%;
+  border-radius:0%;
   display:block;
   max-width:70px;
   margin-bottom:10px;
