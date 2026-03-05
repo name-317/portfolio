@@ -42,7 +42,10 @@ a{color:inherit}
   align-items:center;
 }
 .hero-inner h1{font-size:52px; margin:8px 0 10px; line-height:1.05}
-.eyebrow{letter-spacing:.12em; color:var(--muted); margin:0}
+.eyebrow{
+  font-family: "SloopScript", cursive;
+  letter-spacing:.0em; color:var(--muted); margin:0
+}
 .sub{color:var(--muted); margin:0 0 18px}
 .btn{
   display:inline-block;
@@ -60,9 +63,6 @@ a{color:inherit}
 
   justify-self:end;
   transform:translateX(40px);
-}
-.eyebrow{
-  font-family: "SloopScript", cursive;
 }
 
 .section{
