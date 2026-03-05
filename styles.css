@@ -49,12 +49,13 @@ a{color:inherit}
   background:#fff;
 }
 .hero-img{
-  width:120%;
+  width:125%;
   border-radius:var(--radius);
   object-fit:cover;
   min-height:360px;
 
-  justify-self:end;   /* ← 右寄せ */
+  justify-self:end;
+  transform:translateX(40px);
 }
 
 .section{
