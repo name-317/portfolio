@@ -96,9 +96,9 @@ a{color:inherit}
   gap:14px;
 }
 .profile-photo{
-  width:100px;          /* 好きなサイズに */
-  height:100px;
-  object-fit:cover;
+  width:90px;
+  height:auto;
+  display:block;
 }
 .gallery{
   display:grid;
