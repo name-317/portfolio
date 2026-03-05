@@ -46,7 +46,7 @@ a{color:inherit}
   font-family: "SloopScript", cursive;
   font-size:60px;
   letter-spacing:0em;
-  min-height:100px;
+  min-height:-100px;
   margin:0;
 }
 .sub{color:var(--muted); margin:0 0 18px}
@@ -63,8 +63,7 @@ a{color:inherit}
   border-radius:var(--radius);
   object-fit:cover;
   min-height:360px;
-  margin-left:-50px;
-
+  margin-left:-100px;
   justify-self:end;
   transform:translateX(40px);
 }
@@ -103,7 +102,7 @@ a{color:inherit}
   gap:14px;
 }
 .profile-photo{
-  width:300px;
+  width:200px;
   height:auto;
   margin-left:80px;
   display:block;
