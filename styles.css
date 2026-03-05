@@ -46,7 +46,7 @@ a{color:inherit}
   font-family: "SloopScript", cursive;
   font-size:60px;
   letter-spacing:0em;
-  min-height:-30px;
+  min-height:50px;
   margin:0;
 }
 .sub{color:var(--muted); margin:0 0 18px}
@@ -76,7 +76,7 @@ a{color:inherit}
 }
 .section h2{
   font-family: "SloopScript", cursive;
-  font-size:28px; margin:0 0 14px
+  font-size:50px; margin:0 0 14px
   letter-spacing:0em;
   min-height:-30px;
   margin:0;
@@ -103,8 +103,9 @@ a{color:inherit}
   gap:14px;
 }
 .profile-photo{
-  width:150px;
+  width:300px;
   height:auto;
+  margin-left:40px;
   display:block;
 }
 .gallery{
