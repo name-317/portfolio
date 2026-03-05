@@ -93,13 +93,11 @@ a{color:inherit}
   gap:14px;
 }
 .profile-photo{
-  width:120px;
-  height:120px;
+  width:90px;
+  height:90px;
   object-fit:cover;
-  border-radius:0%;
+  border-radius:12px;
   display:block;
-  max-width:70px;
-  margin-bottom:10px;
 }
 .gallery{
   display:grid;
