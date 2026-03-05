@@ -44,7 +44,7 @@ a{color:inherit}
 .hero-inner h1{font-size:52px; margin:8px 0 10px; line-height:1.05}
 .eyebrow{
   font-family: "SloopScript", cursive;
-  font-size:10px;
+  font-size:52px;
   letter-spacing:-0.02em;  /* ←文字間を狭くする */
   color:var(--muted);
   margin:0;
