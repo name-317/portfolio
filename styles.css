@@ -34,7 +34,7 @@ a{color:inherit}
 
 .hero{
   display:grid;
-  grid-template-columns: .9fr 1.1fr; /* ← ここを逆にする（画像列を広く） */
+  grid-template-columns: .9fr 1.1fr;
   gap:24px;
   padding:40px 20px;
   max-width:1100px;
@@ -45,7 +45,7 @@ a{color:inherit}
 .eyebrow{
   font-family: "SloopScript", cursive;
   font-size:52px;
-  letter-spacing:-0.02em;  /* ←文字間を狭くする */
+  letter-spacing:-0.02em;
   color:var(--muted);
   margin:0;
 }
