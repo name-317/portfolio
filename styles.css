@@ -74,7 +74,13 @@ a{color:inherit}
   margin:0 auto;
   padding:34px 20px;
 }
-.section h2{font-size:28px; margin:0 0 14px}
+.section h2{
+  font-family: "SloopScript", cursive;
+  font-size:28px; margin:0 0 14px
+  letter-spacing:0em;
+  min-height:-30px;
+  margin:0;
+}
 .muted{color:var(--muted)}
 .lead{font-size:16px; line-height:1.8}
 
