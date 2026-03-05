@@ -63,7 +63,7 @@ a{color:inherit}
   border-radius:var(--radius);
   object-fit:cover;
   min-height:360px;
-  margin-left:-40px;
+  margin-left:20px;
 
   justify-self:end;
   transform:translateX(40px);
