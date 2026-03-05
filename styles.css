@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "SloopScript";
+  src: url("./fonts/sloop-script-pro-bold.otf") format("opentype");
+}
 :root{
   --bg:#f4f1e6;
   --ink:#141414;
