@@ -46,7 +46,7 @@ a{color:inherit}
   font-family: "SloopScript", cursive;
   font-size:60px;
   letter-spacing:0em;
-  min-height:50px;
+  min-height:-100px;
   margin:0;
 }
 .sub{color:var(--muted); margin:0 0 18px}
