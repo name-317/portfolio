@@ -99,8 +99,6 @@ a{color:inherit}
   width:100px;          /* 好きなサイズに */
   height:100px;
   object-fit:cover;
-  border-radius:0;     /* ← 丸やめる */
-  display:block;
 }
 .gallery{
   display:grid;
