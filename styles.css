@@ -61,6 +61,9 @@ a{color:inherit}
   justify-self:end;
   transform:translateX(40px);
 }
+.eyebrow{
+  font-family: "SloopScript", cursive;
+}
 
 .section{
   max-width:1100px;
