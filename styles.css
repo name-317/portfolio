@@ -41,13 +41,17 @@ a{color:inherit}
   margin:0 auto;
   align-items:center;
 }
-.hero-inner h1{font-size:52px; margin:8px 0 10px; line-height:1.05}
+.hero-inner h1{
+  font-size:52px;
+  margin:0;
+  line-height:1.05;
+}
+
 .eyebrow{
   font-family: "SloopScript", cursive;
   font-size:60px;
   letter-spacing:0em;
-  margin:0;
-  transform:translateY(-30px);
+  margin:0 0 -28px 0;
 }
 .sub{color:var(--muted); margin:0 0 18px}
 .btn{
