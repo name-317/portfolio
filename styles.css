@@ -64,12 +64,9 @@ a{color:inherit}
 }
 .hero-img{
   width:120%;
-  border-radius:var(--radius);
+  height:auto;
   object-fit:cover;
-  min-height:360px;
-  margin-left:-80px;
-  justify-self:end;
-  transform:translateX(40px);
+  object-position:right center;
 }
 
 .section{
